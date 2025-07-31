@@ -18,3 +18,5 @@ class Calc:
     def get_zegop(self, a):
         return a * a
 
+    def getSumSum(self, a, b, c):
+        return a + b + c

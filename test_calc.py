@@ -34,3 +34,6 @@ def test_divide():
     result = calc.getDivide(6, 3)
     assert result == 2
 
+def test_getSumSum():
+    calc = Calc()
+    assert calc.getSumSum(1,2,3) == 6
