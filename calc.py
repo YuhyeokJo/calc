@@ -1,5 +1,5 @@
 class Calc:
     ...
 
-    def get_zegop(self, param):
-        return 25
+    def get_zegop(self, a):
+        return a * a
