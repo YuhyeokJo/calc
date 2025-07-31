@@ -1,3 +1,3 @@
 class Calc:
-    def divide(self, a, b):
+    def getDivide(self, a, b):
         return a / b
