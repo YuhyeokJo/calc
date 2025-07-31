@@ -13,3 +13,9 @@ def test_getGop():
     calc = Calc()
     ret = calc.getGop(8,9)
     assert ret == 72
+
+
+def test_getGop():
+    calc = Calc()
+    ret = calc.getGop(-1,-2)
+    assert ret == 2
