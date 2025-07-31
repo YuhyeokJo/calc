@@ -8,3 +8,8 @@ def test_getGop():
     calc = Calc()
     ret = calc.getGop(2,3)
     assert ret == 6
+
+def test_getGop():
+    calc = Calc()
+    ret = calc.getGop(8,9)
+    assert ret == 72
