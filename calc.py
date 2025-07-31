@@ -3,4 +3,5 @@ class Calc:
         ...
 
     def getGop(self, num1, num2):
-        return 6
+        value = num1 * num2
+        return value
